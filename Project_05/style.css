@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(148, 242, 214);
+}
+
+section{
+    margin: 10px;
+    padding-bottom: 10px;
+    width:1200px
+}
+h1{
+    background-color: bisque;
+    margin-bottom: 5px;
+    padding-left:10px ;
+}
+
+p{
+    text-decoration: dashed;
+    background-color: bisque;
+}
+
+.scroll-indicator{
+    position: fixed;
+    width:100vh;
+    height:5px;
+    top:10px;
+    left:3em;
+    border-radius: 3px;
+}
+
+.scroll-indicator .progress{
+    height: 100%;
+    width:0px;
+    border-radius: 3px;
+    transition: width 0.1s;
+    background-color: black;
+}
