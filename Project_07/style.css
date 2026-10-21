@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-container{
+    background: url(assets/thumb.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    right: 50px;
+    cursor: pointer;
+}
